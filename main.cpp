@@ -49,7 +49,7 @@ void createH(string name)
     
     file << "private:" << endl;
     file << "" << endl;
-    file << "}" << endl;
+    file << "};" << endl;
     
     file << "#endif //" << s << "_H_INCLUDED";
     file.close();
